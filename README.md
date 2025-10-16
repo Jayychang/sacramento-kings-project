@@ -8,22 +8,6 @@ The analysis focuses on data cleaning, exploratory analysis, translating interna
 --
 
 ## Project Structure
-sacramento-kings--project/
-├─ data/ 
-│ ├─ player.json
-│ ├─ nba_box_player_season.json
-│ └─ international_box_player_season.json
-│
-├─ notebooks/ 
-│ └─ NOTEBOOK NAME
-│
-├─ reports/ 
-│ └─ kings_shortlist.html
-│
-├─ portfolio/ 
-│
-├─ requirements.txt 
-└─ README.md 
 
 ### Explanation of folders:
 - **`data/`** → Raw JSON files provided.  
@@ -52,7 +36,7 @@ venv\Scripts\activate      # Windows
 pip install -r requirements.txt
 
 4. Launch Jupyter Notebook
-jupyter notebook notebooks/NOTEBOOKNAME.ipynb
+jupyter notebook notebooks/sac_kings_notebook.ipynb
 
 5. Run all cells to reproduce the results
 
