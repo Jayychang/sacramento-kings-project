@@ -1,6 +1,6 @@
 # Sacramento Kings - International Player Targeting (Take-Home)
 
------- This repository contains my submission for the **Sacramento Kings Associate Data Scientist (Basketball Operations)** take-home project. ------
+---- This repository contains my submission for the **Sacramento Kings Associate Data Scientist (Basketball Operations)** take-home project. ----
 
 This project focuses on identifying high-value international basketball prospects who could strengthen the Sacramento Kings roster, with a particular emphasis on two-way player impact. Leveraging mock performance data from major European leagues (EuroLeague, EuroCup, ACB, and Serie A) and the NBA, I built an end-to-end data science pipeline—from data ingestion, cleaning, and feature engineering to exploratory analysis, modeling, and final ranking.
 
