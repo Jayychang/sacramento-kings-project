@@ -31,18 +31,22 @@ The final deliverable includes a clean, ranked scouting table with key metrics, 
 Follow these steps to reproduce the analysis on your local machine:
 
 1. Clone the repository
+
 git clone https://github.com/Jayychang/sacramento-kings-project.git
 cd sacramento-kings-project
 
 2. (Optional) Create and activate a virtual environment
+
 python -m venv venv
 source venv/bin/activate   # Mac/Linux
 venv\Scripts\activate      # Windows
 
 3. Install dependencies
+
 pip install -r requirements.txt
 
 4. Launch Jupyter Notebook
+
 jupyter notebook notebooks/sac_kings_notebook.ipynb
 
 5. Run all cells to reproduce the results
