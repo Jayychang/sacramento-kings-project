@@ -2,9 +2,13 @@
 
 This repository contains my submission for the **Sacramento Kings Associate Data Scientist (Basketball Operations)** take-home project.  
 
-The goal of this exercise is to use international basketball performance data to **identify and prioritize potential player targets** for the Kings’ scouting staff.  
-The analysis focuses on data cleaning, exploratory analysis, translating international performance to an NBA context, and communicating clear insights through a professional, reproducible workflow.
+This project focuses on identifying high-value international basketball prospects who could strengthen the Sacramento Kings roster, with a particular emphasis on two-way player impact. Leveraging mock performance data from major European leagues (EuroLeague, EuroCup, ACB, and Serie A) and the NBA, I built an end-to-end data science pipeline—from data ingestion, cleaning, and feature engineering to exploratory analysis, modeling, and final ranking.
 
+The analysis began with rigorous data standardization, missing value diagnostics, unit normalization, and the creation of derived metrics such as per-game statistics and shooting efficiency. Exploratory Data Analysis (EDA) was used to compare international vs. NBA player distributions, uncovering key structural differences: international players tend to be more role-concentrated, while NBA players exhibit a broader spread at the top of performance metrics.
+
+A composite score was then developed using standardized and weighted features, prioritizing efficient scoring, defensive activity (steals, blocks, BPM), and all-around impact. This scoring system allowed for the creation of a ranked Top 25 Prospect List, highlighting players who stand out as versatile, NBA-ready contributors capable of addressing the Kings’ defensive weaknesses without compromising offensive value.
+
+The final deliverable includes a clean, ranked scouting table with key metrics, percentile visualizations, and distribution analyses that provide actionable insight for player targeting.
 --
 
 ## Project Structure
